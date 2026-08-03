@@ -1,0 +1,17 @@
+# deps
+node_modules/
+# builds
+.next/
+out/
+dist/
+# entorno — NUNCA subir
+.env
+.env*.local
+# vercel
+.vercel
+# sistema
+.DS_Store
+*.log
+# nexus
+.nexus-host-id
+.nexus-dev.log
