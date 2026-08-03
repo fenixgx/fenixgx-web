@@ -255,7 +255,25 @@ sistemas antes de montar la empresa. **Ese es el número que se cuenta**, y es i
   *"esto es un proyecto de una persona"*.
 - **Cientos de negocios locales servidos**, con base fuerte en hostelería.
 
-### 💎 El ángulo que hay que contar
+### 🚨 ANTES DE USAR NADA DE ARRIBA: esto es CONTEXTO, no contenido de la web
+
+**Decisión de Rodolfo (03-08-2026): *"no quiero convertir la web de FenixGx en un CV ni en la
+extensión de uno."*** Y el riesgo estaba justo aquí, en esta sección.
+
+Toda la trayectoria de arriba existe **para que un Claude sepa quién es Rodolfo y qué es verdad**
+antes de escribir una línea. **NO es material para volcar en la web.**
+
+| ✅ De EMPRESA (sí va) | ❌ De CURRÍCULUM (no va) |
+|---|---|
+| *"Antes de construir IAMenu pasó 15 años trabajando con restaurantes y hoteles"* — explica **por qué el producto es como es** | La línea de tiempo de empleos |
+| Una mención breve del fundador, al final | La Embajada en Berlín · el centro de juego de Margarita · los cargos |
+| Lo que la empresa **construye** | *"Sobre mí"*, foto grande, aptitudes, biografía |
+
+**La regla, en una línea:** que la empresa tenga un fundador con experiencia relevante **≠** que la
+empresa sea su biografía. En la web, **el fundador es una frase de contexto, no el protagonista** —
+y su sitio natural es cerca del final, no el hero. El CV ya existe y vive aparte (ver 2.4).
+
+### 💎 El ángulo — una frase, no una sección
 
 > **IAMenu no lo construyó un programador que leyó sobre restaurantes. Lo construyó alguien que les
 > facturó durante 15 años.**
@@ -613,7 +631,7 @@ entidades distintas** para Google.
 | Sección | Qué contiene | Por qué existe |
 |---|---|---|
 | **Inicio** | Qué es FenixGx en 2 frases · los 3 productos como tarjetas · la trayectoria en una línea | Es la que se lee. Todo lo demás es profundidad |
-| **Quiénes somos** | La historia real: 20 años (IT en Berlín → 14 años de Roka Creativa con hostelería → software) · por qué nació IAMenu | **Es la página que construye la confianza.** La más importante de todas |
+| **Qué es FenixGx** | Qué hace la empresa, qué construye y **por qué existe**. El fundador, **una frase al final** — nunca una biografía (ver 2.2) | Es la que carga la confianza. 🚫 **NO se llama "Sobre mí" ni cuenta una carrera** |
 | **Productos** | Las tres fichas del Nivel 3, con sus enlaces | Que se vea que hay obra, no una idea |
 | **Cómo construimos** | Nexus, los SPECs, la ingeniería propia | Responde *"¿cómo sostiene esto una persona?"* — el argumento diferencial |
 | **Contacto** | Email + LinkedIn. **Sin formulario** | Un formulario sin nadie detrás es peor que un email |
