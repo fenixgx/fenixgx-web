@@ -73,13 +73,38 @@ Léelo dos veces, porque es la decisión que gobierna todo lo demás:
 
 > ## **Esta web existe para que te CREAN, no para que te encuentren.**
 
-Sus **tres lectores reales**, por orden de valor:
+### 🚨 Quién lee esto DE VERDAD (corregido por Rodolfo, 03-08-2026)
 
-1. **Un restaurante que está a punto de pagar 69 €/mes** y busca *"quién está detrás de IAMenu"*.
-   Hoy no encuentra una empresa. **Eso cuesta ventas** — y son ventas que ya estaban decididas.
-2. **Google** — es la **T de E-E-A-T** (*Trust*), el pilar que más pesa de los cuatro. Una sociedad
-   verificable en un registro público estatal es la prueba de confianza más fuerte que existe.
-3. **ChatGPT y Perplexity** — cuando deciden a quién citar, miran quién hay detrás del producto.
+**La primera versión de este archivo se equivocaba**, y la corrección vino con datos del embudo real:
+
+> *"No pienses que los dueños de restaurante van a hacer una investigación profunda para ver si eres
+> serio antes de pagar 69 €. Primero hacen la prueba de 14 días — el 98% va al trial. Si les gusta,
+> compran. No van a ver mi web."* — Rodolfo
+
+**Tiene razón, y encaja con todo lo medido en IAMenu:** el primer pago real llegó tras 14 días de
+prueba y de forma orgánica; el análisis de SPEC-184 muestra que quien no convierte **deja de entrar
+12-14 días antes**, o sea que decide con el **producto**, no con la matriz. 🚨 **El comprador de
+IAMenu NO es lector de esta web.** Escribir copy pensando en él es escribir para nadie.
+
+Los lectores reales, por orden:
+
+1. **ChatGPT, Perplexity y demás modelos** — cuando deciden a quién citar miran quién hay detrás.
+   Es el **nº1** porque coincide con el cuello de botella documentado de IAMenu: en inglés pierde por
+   **autoridad y fuentes externas**, no por producto ni por on-page (probado en vivo, SPEC-142/152).
+2. **Plataformas y partners que te VERIFICAN** — Deliveroo (Partner Platform), Uber Eats (pendiente
+   de aprobación), Meta/WhatsApp Business, Stripe, Google Business Profile. Todos comprueban que la
+   sociedad existe, tiene domicilio y tiene cara. **Aquí una web real te desatasca trámites.**
+3. **El que recibe un cold email** desde un dominio que no conoce (`helloiamenu.com` y los otros 5 de
+   ARTEMIS) y quiere saber quién le escribe antes de contestar.
+4. **Google (E-E-A-T)** — sigue valiendo, pero el efecto es **indirecto y lento**. No es la razón.
+5. **Reclutadores y empresas** — *"he fundado una Ltd británica con producto en producción"* es la
+   mejor carta de Rodolfo (ver 2.4: **el enlace va del CV hacia aquí, nunca al revés**).
+6. **Excepción del punto tumbado:** hoteles y cadenas. Ticket alto y compra por comité — **esos sí
+   investigan**. Es un caso estrecho, no el general.
+
+📉 **Consecuencia directa: esto NO es urgente.** No bloquea ventas, no acelera el trial y su retorno
+llega a meses vista. **Es una tarde bien invertida, no una semana.** Si empieza a crecer, está
+robando tiempo a la campaña de IAMenu, que es lo que factura.
 
 📌 **Por qué importa AHORA:** el cuello de botella de IAMenu **no es su web** (está a la par o mejor
 que su competidor nº1 en on-page y schema — verificado con 3 agentes en SPEC-142), es la **autoridad
@@ -619,6 +644,16 @@ software"* lo dice todo el mundo. *"14 años imprimiendo las cartas de los resta
 nuestro software"* no lo puede decir nadie más.
 
 Y una prueba rápida antes de publicar cualquier párrafo: **¿esto se puede comprobar?** Si no, fuera.
+
+## 5.4 🎨 Dirección visual — **SIN DECIDIR**
+
+**No hay nada acordado.** Está pendiente del brainstorming con Rodolfo, que traerá referencias.
+Lo único anotado, como conversación y no como decisión: salió la idea de una estética tipo terminal
+/ retrofuturista *"al estilo Fallout pero más serio"*. **Ni aprobada ni descartada.**
+
+🚨 **No escribas aquí una dirección visual hasta que Rodolfo la cierre.** Este archivo documenta
+**decisiones**, no conversaciones — y dar por decidido lo que se está hablando es la forma más rápida
+de que deje de ser fiable.
 
 ---
 
