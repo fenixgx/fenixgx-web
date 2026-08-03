@@ -209,24 +209,43 @@ con una trayectoria, no con adjetivos.
 | **Idiomas** | Español (nativo) · Inglés · Alemán |
 | **Especialidad declarada** | Sistemas y agentes de IA, RAG, MCP, automatización, LLM, arquitectura SaaS |
 
-### La trayectoria (verificable, y es EL activo)
+### La trayectoria — **26 años en tecnología, desde 1999**
+
+Fuente: `Curriculum/src/data/experience.ts` (su portafolio, revisado el 03-08-2026). **Estas fechas son
+las buenas** — más completas que las del CLAUDE.md global, que solo contaba desde 2012.
 
 | Periodo | Qué |
 |---|---|
-| **2004 – 2011** (7 años) | **Administrador de Sistemas TI y Servicios Web — Embajada de Venezuela en Berlín.** Infraestructura interna, redes, servidores, correo, cuentas de usuario, servicios web y soporte diario. |
-| *(antes de 2004)* | Administrador de Sistemas, Redes y Servicios Web — centro de operaciones de juego online, Isla de Margarita, Venezuela. |
-| **2012 – 2026** (**15 años**) | **Fundador y Director General de ROKA CREATIVA SL** (Tenerife). Diseño gráfico, impresión, rotulación, desarrollo web y servicios creativos **para restaurantes, hoteles y negocios locales**. |
-| **2025 – hoy** | **IAMenu** — diseño y construcción de la plataforma de extremo a extremo: modelo de datos, arquitectura, frontend, backend, BD, APIs, facturación, seguridad, observabilidad y despliegue. |
+| **1999 – 2004** (4 años) | **Administrador de Sistemas y Redes** — centro de operaciones de apuestas/juego (capital estadounidense), Isla de Margarita, Venezuela. Windows Server, redes, conectividad. **Donde empieza todo.** |
+| **2004 – 2011** (7 años) | **Administrador de Sistemas TI — Embajada de Venezuela en Berlín.** Infraestructura, redes, servidores, correo, cuentas y soporte diario en un **entorno gubernamental donde la discreción importaba**. |
+| **2012 – 2026** (**15 años**) | **Fundador y Director General de ROKA CREATIVA SL** (Tenerife). Artes gráficas, impresión, rotulación, diseño y desarrollo web. 🔑 **Dirigió un equipo de producción** y sirvió a **cientos de negocios locales, con base fuerte en restaurantes y hostelería.** |
+| **2025 – hoy** | **IAMenu** (+ Taski + Nexus) — plataforma construida de extremo a extremo: modelo de datos, arquitectura, frontend, backend, APIs, facturación, seguridad, observabilidad y despliegue. |
 
-### 💎 El ángulo que hay que contar (y que no estaba escrito en ningún sitio)
+🔥 **Dato que no estaba en ningún CLAUDE.md hasta hoy: la carrera arranca en 1999.** No son "15 años
+de imprenta + 6 de software": son **26 años en tecnología**, de los cuales 11 en administración de
+sistemas antes de montar la empresa. **Ese es el número que se cuenta**, y es incontestable.
+
+🔑 **Y dos matices que multiplican el peso** (también de su portafolio):
+- **No trabajaba solo: dirigió un equipo de producción durante 14 años.** Mata de raíz la objeción
+  *"esto es un proyecto de una persona"*.
+- **Cientos de negocios locales servidos**, con base fuerte en hostelería.
+
+### 💎 El ángulo que hay que contar
 
 > **IAMenu no lo construyó un programador que leyó sobre restaurantes. Lo construyó alguien que les
 > facturó durante 15 años.**
 
 Esa frase —dicha con sus datos, sin adornos— es el activo de confianza más fuerte que tiene esta
-empresa, y encaja exactamente con lo que Google llama *Experience*: **conocimiento de primera mano**.
-Y explica el producto: *"herramientas existentes son caca"* no es una opinión de foro, es el
-diagnóstico de quien pasó 14 años imprimiendo y diseñando las cartas de esos mismos restaurantes.
+empresa, y es exactamente lo que Google llama *Experience*: **conocimiento de primera mano**.
+Explica el producto entero: *"las herramientas existentes son caca"* no es una opinión de foro, es el
+diagnóstico de quien pasó 15 años imprimiendo y diseñando las cartas de esos mismos restaurantes.
+
+💡 **Y él ya lo tenía escrito, en su propio portafolio** (`experience.ts`, sobre Roka Creativa).
+Es la mejor línea de todo el material disponible y se puede traducir casi literal:
+
+> *"Learned how non-technical businesses make decisions — the same customers IAMenu serves today."*
+> — *Aprendí cómo toman decisiones los negocios no técnicos. Son los mismos clientes a los que hoy
+> sirve IAMenu.*
 
 📏 **La cifra de Roka son 15 años, y se usa esa en TODOS los sitios** (confirmado por Rodolfo,
 03-08-2026). Las fechas que muestra LinkedIn (`may 2012 – may 2026` = 14 años 1 mes) están sin
@@ -251,6 +270,66 @@ script, nunca se copian de otro soporte.
 - ❌ **No es un portafolio personal.** El portafolio de Rodolfo vive aparte (`Curriculum`); aquí habla
   la **sociedad**, y el fundador aparece como su cara verificable, no como freelance disponible.
 - ❌ **No es un blog.** Sin cadencia, sin posts, sin newsletter. IAMenu ya tiene blog y novedades.
+
+## 2.4 🕸️ El ecosistema de presencia digital (y en qué dirección enlazar)
+
+Todas estas piezas ya existen, hablan de la misma persona y la misma empresa, y **ninguna declara
+relación con las demás**. Es el mismo problema del `parentOrganization`: entidades sueltas que Google
+no puede unir.
+
+| Pieza | Qué es | Público |
+|---|---|---|
+| `fenixgx.com` | **Esta web** — la matriz | Clientes que van a pagar · Google · IAs |
+| `iamenu.ai` | Producto que factura | Restaurantes y hoteles |
+| `taski.life` | Producto vivo | Autónomos, gente que se organiza |
+| `github.com/fenixgx` | **Perfil de GitHub** (repo `fenixgx/fenixgx`) | Técnico · señal de autoridad |
+| `linkedin.com/in/rodolfo-giannotti` | Perfil profesional | Profesional · reclutadores |
+| `rodolfo-giannotti.vercel.app` | **Portafolio personal** (repo `fenixgx/curriculum`) | 🎯 **RECLUTADORES** |
+
+### 🚨 El portafolio personal y esta web tienen públicos OPUESTOS
+
+**No se copia ni una línea de copy del portafolio a `fenixgx.com`.** No es una cuestión de estilo: su
+copy está escrito para convencer a un reclutador, y **al cliente que paga le dice justo lo contrario
+de lo que necesita oír.** Dos ejemplos literales de `Curriculum/src/data/answers.ts`:
+
+> *"IAMenu is live and being tested by real users. It is still early-stage, **so I do not present it
+> as a mature business or proven revenue engine**."*
+
+> *"**If you build your own products, why look for a job?** — Because building alone has limits…
+> right now I want to build inside a serious team."*
+
+Ambas son **honestas, correctas y una fortaleza** delante de un reclutador: te hacen creíble. Delante
+de un restaurante que está a punto de pagar 69 €/mes son **la venta muerta** — lee *"esto no es un
+negocio de verdad y el que lo hizo se quiere ir"* y cierra la pestaña.
+
+### 🔀 Por eso el enlace tiene una dirección correcta y una incorrecta
+
+- ✅ **Portafolio → FenixGx: SUMA.** *"He fundado una sociedad británica con productos en producción
+  y clientes de pago"* es lo mejor que puede llevar un CV.
+- ❌ **FenixGx → portafolio: RESTA.** Manda a tu comprador a un CV de búsqueda de empleo.
+- ✅ **Desde `fenixgx.com` se enlaza al LinkedIn y al GitHub** — profesional y obra, sin el marco de
+  "disponible para contratar".
+
+### 💰 Material del portafolio que SÍ es oro (adaptándolo, no copiándolo)
+
+Estas ya están validadas por Rodolfo y sirven para la sección *"cómo construimos"*:
+
+- *"I use AI as leverage, not as a replacement for engineering responsibility. My workflow is built
+  around **SPECs, context, verification and backups**."* ← **la mejor definición de por qué existe Nexus.**
+- *"If something works in production, **I do not touch it for ego**. Small, surgical improvements over
+  risky rewrites."*
+- *"My strongest proof is the ability to **ship complete systems end to end**: database, APIs, UI,
+  auth, payments, AI workflows, automation, deployment."*
+
+### ⚠️ Dos datos del portafolio a VERIFICAR antes de publicarlos
+
+1. **"Real users across 10 countries"** (`projects.ts`) — muy potente **si sigue siendo cierto**.
+   Se comprueba en la BD de IAMenu (`business.country_code`) antes de escribirlo. Regla Suprema 2.
+2. **Las cifras de su portafolio están desactualizadas**, igual que las de LinkedIn: dice *"~90
+   funciones / 22 módulos"* y *"29 idiomas"*, cuando son **138 tools en 33 módulos** y **53 idiomas**.
+   Las buenas están en el Nivel 3.
+3. 🚫 **MYAIBS no entra en esta web.** En el portafolio sale como *"PAUSED"* y en el CLAUDE.md global
+   como **cerrado**. Una matriz que enseña un producto parado resta credibilidad, no la suma.
 
 ---
 
@@ -568,6 +647,41 @@ Si acabase siendo HTML plano bien hecho, **también vale**. El valor está en el
 - Rama `main`. Aquí no hace falta el flujo `dev`→`main` de IAMenu: no hay nada que se pueda romper
   en producción para un cliente que paga.
 - 🛑 **Ni el repo ni el proyecto de Vercel se crean sin que Rodolfo lo pida** (Regla Suprema 6).
+  *(Autorizado el 03-08-2026 para esta configuración inicial.)*
+
+### 🪤 TRAMPA: `fenixgx/fenixgx` NO es un repo libre — es el PERFIL de GitHub
+
+Un repositorio con **el mismo nombre que la cuenta** es especial: GitHub renderiza su `README.md`
+en la portada de `github.com/fenixgx`. Ese repo **existe, es público** y contiene la presentación de
+Rodolfo (*"AI Full-Stack Developer · Technical Founder · SaaS Builder"*).
+
+🚨 **Usarlo para la web le borra la portada del perfil.** El repositorio de esta web tiene que
+llamarse **otra cosa** (`fenixgx-web`). Verificado el 03-08-2026 antes de crear nada.
+
+## 6.2b Estado real de la infraestructura (verificado 03-08-2026, con la API)
+
+Escrito aquí para que nadie lo vuelva a descubrir a mano — y sobre todo para que nadie pise nada.
+
+| Qué | Estado |
+|---|---|
+| **GitHub CLI** | `gh` autenticado como la cuenta **`fenixgx`** (protocolo SSH). No hace falta token en el `.env` |
+| **Repos existentes** en la org | `iamenu` · `taski` · `nexus` · `myaibs` · `subvenia` · `artgoma` · `migusto` · `evana` · `backups` (privados) · `fenixgx` **(perfil, público — NO TOCAR)** · `curriculum` · `sentinel-anomaly-detection` · `product-case-studies` (públicos) |
+| 🎯 **Repo de ESTA web** | **`fenixgx/fenixgx-web` — PÚBLICO** (creado 03-08-2026). Rama `main`. Público a propósito: no hay un solo secreto dentro y el código a la vista es otra señal de que la empresa existe |
+| **Equipo de Vercel** | `fenix's projects` — slug `fenixgx-projects` — `team_u0tTao01lH3llfjPiibnfjSJ` |
+| **Proyectos en Vercel** | `iamenu` · `taski` · `myaibs` · `artgoma` · `roka-maintenance` · `rodolfo-giannotti` · 🎯 **`fenixgx`** → `prj_Rdg2Qkzr46qW4hJZmBIyILrgkdGa` (creado 03-08-2026, enlazado a `fenixgx-web`, framework `nextjs`) |
+| **Portafolio personal** | repo `fenixgx/curriculum` → proyecto Vercel `rodolfo-giannotti` → `rodolfo-giannotti.vercel.app`. **Es OTRA web, con otro público** (ver 2.4) |
+| **Dominio `fenixgx.com`** | ✅ **Ya está en la cuenta de Vercel y verificado.** No hay que comprarlo ni transferirlo: solo asignarlo a un proyecto cuando exista |
+| Otros dominios en la cuenta | `iamenu.ai` · `taski.life` · `taski.live` · `taski.digital` · `roka.es` |
+
+⚠️ **El MCP de Vercel y el `.env` NO ven lo mismo.** `list_projects` del MCP devuelve **vacío**
+mientras el `VERCEL_TOKEN` del `.env` lista los 6 proyectos reales → están autenticados con
+credenciales distintas. **Para operar Vercel en este proyecto, usa la API REST con el token del
+`.env`**, no el MCP, o creerás que la cuenta está vacía.
+
+🧠 **Cuándo conectar el dominio (decisión):** el proyecto se crea ya, pero `fenixgx.com` se apunta
+**solo cuando haya contenido real**. Si lo conectas hoy, lo primero que indexa Google de esta marca
+es un "Hello World" — y la primera impresión de una web cuyo único activo es la credibilidad no se
+recupera con un redeploy. Mientras tanto vive en `fenixgx.vercel.app`.
 
 ## 6.3 Dominio y email
 
@@ -715,11 +829,22 @@ Ejemplo de la miga que hay que escribir el día que se cree:
 - [x] **Idiomas decididos**: español primero, inglés después
 - [x] Este `CLAUDE.md`
 
+- [x] **Workspace `FENIXGX` registrado en Nexus** (03-08-2026 — `nexusRAM` ✅ `codeIntelligence` ✅ `specWatcher` ✅)
+- [x] **`.env` creado** con `VERCEL_TOKEN` + `VERCEL_TEAM_ID` heredados de IAMenu · `.env.example` · `.gitignore`
+- [x] **Repo git local inicializado** (rama `main`, commit `f9756c2`) — el `.env` verificado como ignorado
+- [x] Infraestructura auditada con la API real (ver 6.2b)
+
+- [x] **Repo `fenixgx/fenixgx-web` creado y PÚBLICO**, con push hecho (solo 3 archivos: sin secretos)
+- [x] **Proyecto `fenixgx` creado en Vercel** y enlazado al repo — sin deploys fallidos
+- [x] **Ficha actualizada en `~/.claude/CLAUDE.md`** (tabla de proyectos)
+- [x] **Portafolio personal leído** → trayectoria real desde 1999 + el aviso de públicos opuestos (2.4)
+
 ## Pendiente
-- [ ] Registrar el workspace `FENIXGX` en Nexus (`nexus_workspace_init`)
-- [ ] Añadir FenixGx a la tabla de proyectos de `~/.claude/CLAUDE.md`
+- [ ] 🎨 **Brainstorming de la web con Rodolfo** (él manda ejemplos de referencia) ← *el siguiente paso real*
+- [ ] Verificar el dato *"usuarios en 10 países"* contra la BD de IAMenu antes de usarlo (ver 2.4)
 - [ ] Escribir el copy en **español** (la página *Quiénes somos* primero: es la que carga el peso)
 - [ ] Montar la web
+- [ ] Apuntar `fenixgx.com` al proyecto — **solo cuando haya contenido real** (ver 6.2b)
 - [ ] 🔗 **Cerrar el círculo en IAMenu** — `StructuredData.tsx:118`: `legalName` + `parentOrganization`
       + nombre completo del founder + `sameAs`. **Agrupado con otros cambios**, no en un deploy propio
 - [ ] Cerrar el vértice de Taski (`parentOrganization`)
