@@ -1,0 +1,11 @@
+.git
+.next
+node_modules
+.spec
+kitAIatumatitation
+/assets
+index.html
+*.log
+.env
+.env.*
+!.env.example

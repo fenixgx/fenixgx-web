@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="245" viewBox="70 110 590 245" role="img" aria-labelledby="title desc">
+  <title id="title">Taski</title>
+  <desc id="desc">Taski wordmark with an orange spark as the i dot.</desc>
+
+  <defs>
+    <mask id="remove-white-i-dot" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="500">
+      <rect width="1200" height="500" fill="white"/>
+      <rect x="545" y="143" width="66" height="54" rx="10" fill="black"/>
+    </mask>
+  </defs>
+
+  <g font-family="Inter, Poppins, Avenir Next, Montserrat, Arial, sans-serif" font-weight="600" fill="#FFFFFF" mask="url(#remove-white-i-dot)">
+    <text x="94" y="316" font-size="218" letter-spacing="-11">Taski</text>
+  </g>
+
+  <g fill="#FF8733" stroke="#FF8733" stroke-width="7.5" stroke-linecap="round">
+    <circle cx="578" cy="170" r="18"/>
+    <line x1="598" y1="149" x2="610" y2="136"/>
+    <line x1="609" y1="170" x2="626" y2="170"/>
+    <line x1="578" y1="139" x2="578" y2="123"/>
+    <line x1="594" y1="132" x2="601" y2="121"/>
+  </g>
+</svg>

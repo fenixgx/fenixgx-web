@@ -6,7 +6,7 @@
 **FENIXGX LIMITED** · SC891752 · Escocia, Reino Unido · sociedad **ACTIVA** desde el 3 de junio de 2026.
 Es la **matriz** de IAMenu, Taski y Nexus.
 
-**Estado del proyecto: dominio comprado (03-08-2026). Cero código. Contenido decidido.**
+**Estado del proyecto: home Next.js estática publicada en `fenixgx.com` (07-08-2026). Arquitectura bilingüe ES/EN, JSON-LD corporativo y tema Fallout moderno implementados.**
 
 ---
 
@@ -642,14 +642,9 @@ que duda y el modelo que decide si citarte. Que se vea, no escondida en letra de
 
 ## 5.2 Idiomas
 
-**Español primero. Inglés después, cuando el español esté terminado.** Decisión de Rodolfo (03-08-2026).
-
-- Se monta **entero en español**, se revisa, se publica. **Luego** se hace el inglés.
-- 🚫 **No arrancar los dos a la vez.** Es exactamente el error que dejó a IT y PT de IAMenu con la
-  home rota durante semanas (SPEC-188/189): copiar una estructura a medio cocer a otro idioma
-  multiplica el fallo en vez de arreglarlo.
-- Cuando llegue el inglés: **hreflang recíproco desde el día uno** (Regla Suprema 4 — es la misma
-  lección).
+**Español primero, inglés disponible con la misma arquitectura.** La home se sirve en `/es` y `/en`
+con componentes compartidos; el español es la entrada principal y el inglés queda preparado para
+revisión editorial. Ambas rutas emiten **hreflang recíproco** desde el primer deploy.
 - 🚫 Nada de 6 idiomas. Esto no capta tráfico.
 
 ## 5.3 Tono
@@ -663,15 +658,12 @@ nuestro software"* no lo puede decir nadie más.
 
 Y una prueba rápida antes de publicar cualquier párrafo: **¿esto se puede comprobar?** Si no, fuera.
 
-## 5.4 🎨 Dirección visual — **SIN DECIDIR**
+## 5.4 🎨 Dirección visual — instrumento industrial
 
-**No hay nada acordado.** Está pendiente del brainstorming con Rodolfo, que traerá referencias.
-Lo único anotado, como conversación y no como decisión: salió la idea de una estética tipo terminal
-/ retrofuturista *"al estilo Fallout pero más serio"*. **Ni aprobada ni descartada.**
-
-🚨 **No escribas aquí una dirección visual hasta que Rodolfo la cierre.** Este archivo documenta
-**decisiones**, no conversaciones — y dar por decidido lo que se está hablando es la forma más rápida
-de que deje de ser fiable.
+Dirección cerrada por Rodolfo (07-08-2026): estética de instrumento técnico/industrial, con una
+influencia Fallout ligera pero moderna y sobria. Fondo oscuro como base, amarillo cálido como acento,
+retícula, placas, microtipografía monoespaciada y logo blanco+amarillo en oscuro. El tema claro usa
+logo grafito+amarillo. La home no lleva selector de variantes de maqueta.
 
 ---
 
@@ -723,7 +715,7 @@ Escrito aquí para que nadie lo vuelva a descubrir a mano — y sobre todo para 
 | **Equipo de Vercel** | `fenix's projects` — slug `fenixgx-projects` — `team_u0tTao01lH3llfjPiibnfjSJ` |
 | **Proyectos en Vercel** | `iamenu` · `taski` · `myaibs` · `artgoma` · `roka-maintenance` · `rodolfo-giannotti` · 🎯 **`fenixgx`** → `prj_Rdg2Qkzr46qW4hJZmBIyILrgkdGa` (creado 03-08-2026, enlazado a `fenixgx-web`, framework `nextjs`) |
 | **Portafolio personal** | repo `fenixgx/curriculum` → proyecto Vercel `rodolfo-giannotti` → `rodolfo-giannotti.vercel.app`. **Es OTRA web, con otro público** (ver 2.4) |
-| **Dominio `fenixgx.com`** | ✅ **Ya está en la cuenta de Vercel y verificado.** No hay que comprarlo ni transferirlo: solo asignarlo a un proyecto cuando exista |
+| **Dominio `fenixgx.com`** | ✅ **Ya está en la cuenta de Vercel, verificado y asignado al deployment de producción `dpl_6wuUaKg6bPH32QZUtpYW5GwLtRSg` el 07-08-2026.** |
 | Otros dominios en la cuenta | `iamenu.ai` · `taski.life` · `taski.live` · `taski.digital` · `roka.es` |
 
 ⚠️ **El MCP de Vercel y el `.env` NO ven lo mismo.** `list_projects` del MCP devuelve **vacío**
@@ -731,10 +723,8 @@ mientras el `VERCEL_TOKEN` del `.env` lista los 6 proyectos reales → están au
 credenciales distintas. **Para operar Vercel en este proyecto, usa la API REST con el token del
 `.env`**, no el MCP, o creerás que la cuenta está vacía.
 
-🧠 **Cuándo conectar el dominio (decisión):** el proyecto se crea ya, pero `fenixgx.com` se apunta
-**solo cuando haya contenido real**. Si lo conectas hoy, lo primero que indexa Google de esta marca
-es un "Hello World" — y la primera impresión de una web cuyo único activo es la credibilidad no se
-recupera con un redeploy. Mientras tanto vive en `fenixgx.vercel.app`.
+🧠 **Cuándo conectar el dominio:** se apuntó el 07-08-2026 después de publicar la home real, con
+JSON-LD, `/es` y `/en` y el diseño aprobado.
 
 ## 6.3 Dominio y email
 
@@ -879,7 +869,7 @@ Ejemplo de la miga que hay que escribir el día que se cree:
 - [x] Carpeta creada
 - [x] **Datos registrales confirmados** (SC891752, Escocia, 03-06-2026) — Nivel 2.1
 - [x] **Contenido decidido**: los 3 productos entran, Taski como producto vivo, Nexus como ingeniería
-- [x] **Idiomas decididos**: español primero, inglés después
+- [x] **Idiomas decididos**: español principal (`/es`) e inglés (`/en`) con componentes compartidos
 - [x] Este `CLAUDE.md`
 
 - [x] **Workspace `FENIXGX` registrado en Nexus** (03-08-2026 — `nexusRAM` ✅ `codeIntelligence` ✅ `specWatcher` ✅)
@@ -888,21 +878,19 @@ Ejemplo de la miga que hay que escribir el día que se cree:
 - [x] Infraestructura auditada con la API real (ver 6.2b)
 
 - [x] **Repo `fenixgx/fenixgx-web` creado y PÚBLICO**, con push hecho (solo 3 archivos: sin secretos)
-- [x] **Proyecto `fenixgx` creado en Vercel** y enlazado al repo — sin deploys fallidos
+- [x] **Home Next.js estática implementada**: App Router, componentes compartidos, tema claro/oscuro, logo transparente, `/es` y `/en`
+- [x] **JSON-LD corporativo publicado** con `FENIXGX LIMITED`, Companies House, fundador y suborganizaciones IAMenu/Taski
+- [x] **Proyecto `fenixgx` enlazado en Vercel** y deployment de producción listo; `fenixgx.com` asignado con certificado SSL
 - [x] **Ficha actualizada en `~/.claude/CLAUDE.md`** (tabla de proyectos)
 - [x] **Portafolio personal leído** → trayectoria real desde 1999 + el aviso de públicos opuestos (2.4)
 
 ## Pendiente
-- [ ] 🎨 **Brainstorming de la web con Rodolfo** (él manda ejemplos de referencia) ← *el siguiente paso real*
 - [ ] Verificar el dato *"usuarios en 10 países"* contra la BD de IAMenu antes de usarlo (ver 2.4)
-- [ ] Escribir el copy en **español** (la página *Quiénes somos* primero: es la que carga el peso)
-- [ ] Montar la web
-- [ ] Apuntar `fenixgx.com` al proyecto — **solo cuando haya contenido real** (ver 6.2b)
 - [ ] 🔗 **Cerrar el círculo en IAMenu** — `StructuredData.tsx:118`: `legalName` + `parentOrganization`
       + nombre completo del founder + `sameAs`. **Agrupado con otros cambios**, no en un deploy propio
 - [ ] Cerrar el vértice de Taski (`parentOrganization`)
 - [ ] Crear `hello@fenixgx.com` y sustituir el provisional
-- [ ] Versión en inglés — **solo cuando el español esté terminado y revisado**
+- [ ] Revisión editorial final del inglés cuando el español quede aprobado
 
 ## Decisiones abiertas (de Rodolfo, no mías)
 - Si la web enseña o no la dirección escocesa completa *(mi recomendación: sí, con el contexto de
@@ -919,5 +907,5 @@ Ejemplo de la miga que hay que escribir el día que se cree:
 **Proyecto:** FenixGx — web corporativa de FENIXGX LIMITED
 **Carpeta:** `/home/fenix/proyectos/fenixgx`
 **Dominio:** `fenixgx.com`
-**Última actualización:** 03-08-2026 — creación del archivo con los datos registrales reales, el
-perfil verificable del fundador, las fichas de los tres productos y la arquitectura de entidad
+**Última actualización:** 07-08-2026 — home Next.js bilingüe publicada, JSON-LD corporativo verificado y
+`fenixgx.com` asignado al deployment de producción

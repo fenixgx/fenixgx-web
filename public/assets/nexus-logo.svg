@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Nexus</title>
+  <desc id="desc">Geometric Nexus emblem representing connected memory and code context.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M256 42 432 144v224L256 470 80 368V144L256 42Z" stroke="#F4BD58" stroke-width="10" opacity=".86"/>
+    <path d="m146 356V156l220 200V156" stroke="#F3F1E8" stroke-width="30"/>
+    <path d="M146 156 366 356" stroke="#F4BD58" stroke-width="12"/>
+    <circle cx="146" cy="156" r="21" fill="#F4BD58" stroke="#F3F1E8" stroke-width="7"/>
+    <circle cx="366" cy="156" r="21" fill="#F4BD58" stroke="#F3F1E8" stroke-width="7"/>
+    <circle cx="146" cy="356" r="21" fill="#F4BD58" stroke="#F3F1E8" stroke-width="7"/>
+    <circle cx="366" cy="356" r="21" fill="#F4BD58" stroke="#F3F1E8" stroke-width="7"/>
+  </g>
+</svg>
